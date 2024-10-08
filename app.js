@@ -4,7 +4,7 @@ const { XMLParser } = require('fast-xml-parser');
 const { htmlToText } = require('html-to-text');
 
 const app = express();
-const port = 3000;
+const port = 3001;
 
 app.get('/get-releases', async (req, res) => {
   try {
